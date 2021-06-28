@@ -1,0 +1,6 @@
+<design:component >
+    <design:attribute name="recordId" label="Record Id" default="" required="true"/>
+    <design:attribute name="focus" label="Focus when Opened?" default="false" description="(Only applied in Console App) Set this to true if you'd like the tab to be focused when opened"/>
+    <design:attribute name="sObject" label="Object API Name" default="" description="(Only needed in Standard App) Please provide the SObject API Name if action is used in Standard App."/>
+    <design:attribute name="mode" label="View or Edit?" default="View" description="(Only applied in Standard App) Set this to View or Edit if the record should be in View or Edit mode when opened."/>
+</design:component>
