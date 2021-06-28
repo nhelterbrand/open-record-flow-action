@@ -1,0 +1,4 @@
+<design:component >
+    <design:attribute name="recordId" label="Record Id" default="" />
+    <design:attribute name="focus" label="Focus" default="true"/>
+</design:component>

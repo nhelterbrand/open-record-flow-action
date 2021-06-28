@@ -1,0 +1,8 @@
+<aura:component implements="lightning:availableForFlowActions,lightning:availableForFlowScreens">
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="sObject" type="String"/>
+    <aura:attribute name="mode" type="String" default="view"/>
+    <aura:attribute name="focus" type="Boolean" default="false"/>
+    <lightning:workspaceAPI aura:id="workspace"/>
+    <aura:handler name="init" value="{!this}" action="{!c.invoke}"/>
+</aura:component>
