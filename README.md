@@ -6,5 +6,5 @@ Works in Standard Apps and Console Apps to pass a record ID in a flow and then o
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=wmpcx&repo=open-record-flow-action&ref=main">
   <img alt="Deploy to Salesforce"
-       src="./media/deploy-unpackaged-metadata.png">
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
