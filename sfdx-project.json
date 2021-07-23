@@ -1,12 +1,21 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "open-record-flow-action",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "name": "open-record-flow-actions",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "open-record-flow-action": "0Ho5w000000TNC8CAO",
+        "open-record-flow-action@0.1.0-1": "04t5w000005qw6MAAQ",
+        "open-record-flow-action@0.1.0-2": "04t5w000005qw6RAAQ",
+        "open-record-flow-action@0.1.0-3": "04t5w000005qw6WAAQ"
     }
-  ],
-  "name": "open-record-flow-actions",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
 }
