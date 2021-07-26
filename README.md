@@ -11,25 +11,24 @@ A Flow Action that can be added to Flows to open a record's detail page from a s
 
 ## Examples of How to Use the Flow Action
 
-### In a screen flow, drag the Action to the page to add the Flow Action
+1. **In a screen flow, drag the Action to the page to add the Flow Action**
 
 ![Action](content/AddAction.png)
 
-### Search for the Flow Action, named `OpenRecordAction`
+2. **Search for the Flow Action, named `OpenRecordAction`**
 
 ![Search for Action](content/SearchAction.png)
 
-### The Required Inputs depend on the App the Screenflow is used in
+3. **The Required Inputs depend on the App the Screenflow is used in**
 
-- To use the screenflow in either context, it's recommended to populate all the input values
-- Specifically for
-  - Standard Apps, fields required are
-    - RecordId
-    - View or Edit?
-    - Object API Name
-  - Console Apps, fields required are
-    - RecordId
-    - Focus (does defaults to False if left blank)
+To use the screenflow in either context, it's recommended to populate all the input values
+
+| Input Field | Description | Standard | Console |
+| ------ | ----------------- | ----- | ----- |
+| RecordId | The ID of the Record to open | x | x |
+| Focus | True/False as to whether the detail page opens in focus | | x |
+| Object API Name | The API Name of the Record's Object | x | |
+| View or Edit? | Whether the detail page opens in View or Edit mode | x | |
 
 ![Action Details](content/ActionDetails.png)
 
