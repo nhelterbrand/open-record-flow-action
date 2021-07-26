@@ -38,4 +38,4 @@ $RECYCLE.BIN/
 .env
 
 # pdf pages
-.pdf
+*.pdf
