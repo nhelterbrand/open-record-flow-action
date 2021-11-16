@@ -3,11 +3,16 @@
 Version 0.1
 
 A Flow Action that can be added to Flows to open a record's detail page from a screen flow. Works in Standard Apps as well as Console Apps. Console Apps can set the detail page to be opened and set as the focus or open in the background
+
 ## Options to Install
 
-- [Install Unmanaged Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5w000005qw6WAAQ)
-  - password is `wmpgowest`
-- [Deploy Component Source (*need WMP GitHub access)](https://githubsfdeploy.herokuapp.com?owner=wmpcx&repo=open-record-flow-action&ref=main)
+1. Install the unmanaged package by clicking the link to be taken to the latest release for the package: [Install Unmanaged Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5G000004C4hJQAS)
+2. Install the components without installing the package by clicking the button below. Be aware that installing will override any components that share the same name!
+
+  <a href="https://githubsfdeploy.herokuapp.com?owner=nhelterbrand&repo=open-record-flow-action&ref=main">
+    <img alt="Deploy to Salesforce"
+      src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+  </a>
 
 ## Examples of How to Use the Flow Action
 
